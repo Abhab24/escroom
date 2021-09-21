@@ -9,8 +9,8 @@ public class InputManager : MonoBehaviour
     [SerializeField] MouseLook mouseLook;
 
 
-    Playercontrols controls;
-    Playercontrols.GroundMovementActions GroundMovement;
+    PlayerControls controls;
+    PlayerControls.GroundMovementActions GroundMovement;
 
     Vector2 horizontalInput;
     Vector2 mouseInput;
