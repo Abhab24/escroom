@@ -11859,6 +11859,8 @@ PrefabInstance:
     - target: {fileID: 3787959570457860102, guid: 51561c5ac6ad94dc2bc464238ad02aa4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
+<<<<<<< Updated upstream:FinalProject/Assets/Sci Fi Modular Pack/Scenes/Demo 1.0 Free.unity
+=======
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3787959570457860102, guid: 51561c5ac6ad94dc2bc464238ad02aa4,
@@ -11869,7 +11871,13 @@ PrefabInstance:
     - target: {fileID: 3787959570457860102, guid: 51561c5ac6ad94dc2bc464238ad02aa4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+>>>>>>> Stashed changes:FinalProject/Assets/new/Demo 1.0 Free.unity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8106396682052414484, guid: 51561c5ac6ad94dc2bc464238ad02aa4,
+        type: 3}
+      propertyPath: m_Name
+      value: WallIntersection
       objectReference: {fileID: 0}
     - target: {fileID: 8106396682052414484, guid: 51561c5ac6ad94dc2bc464238ad02aa4,
         type: 3}
@@ -13282,6 +13290,90 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110798087}
   m_Mesh: {fileID: 4300002, guid: 256ae929090684381b3f3ef6abc90a33, type: 3}
+--- !u!1001 &1115512529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177045, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290878436954177046, guid: 563e3d0561369fb4cb23d227e2c69c84,
+        type: 3}
+      propertyPath: m_Name
+      value: Crystals
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 563e3d0561369fb4cb23d227e2c69c84, type: 3}
 --- !u!1 &1116268424
 GameObject:
   m_ObjectHideFlags: 0
@@ -14096,6 +14188,8 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
+<<<<<<< Updated upstream:FinalProject/Assets/Sci Fi Modular Pack/Scenes/Demo 1.0 Free.unity
+=======
       objectReference: {fileID: 0}
     - target: {fileID: 5304752588344341603, guid: d5d9b38faad724fa0855ec2bbd572999,
         type: 3}
@@ -14106,6 +14200,18 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
+>>>>>>> Stashed changes:FinalProject/Assets/new/Demo 1.0 Free.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5304752588344341603, guid: d5d9b38faad724fa0855ec2bbd572999,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5304752588344341603, guid: d5d9b38faad724fa0855ec2bbd572999,
+        type: 3}
+<<<<<<< Updated upstream:FinalProject/Assets/Sci Fi Modular Pack/Scenes/Demo 1.0 Free.unity
+      propertyPath: m_LocalRotation.y
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5304752588344341603, guid: d5d9b38faad724fa0855ec2bbd572999,
         type: 3}
@@ -14114,6 +14220,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5304752588344341603, guid: d5d9b38faad724fa0855ec2bbd572999,
         type: 3}
+=======
+>>>>>>> Stashed changes:FinalProject/Assets/new/Demo 1.0 Free.unity
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
