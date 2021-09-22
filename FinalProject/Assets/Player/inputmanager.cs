@@ -49,4 +49,4 @@ public class InputManager : MonoBehaviour
     {
         controls.Disable();
     }
-};
+}

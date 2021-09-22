@@ -34,4 +34,5 @@ public class MouseLook : MonoBehaviour
         mouseX = mouseInput.x * sensitivityX;
         mouseY = mouseInput.y * sensitivityY;
     }
+
 }
