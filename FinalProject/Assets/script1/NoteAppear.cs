@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class NoteAppear : MonoBehaviour
 {
     [SerializeField]
-    private Image_noteImage;
+    private Image _noteImage ;
 
     void OnTriggerEnter(Collider other)
     {
@@ -25,5 +25,4 @@ public class NoteAppear : MonoBehaviour
             _noteImage.enabled = false;
         }
     }
-}
 }
