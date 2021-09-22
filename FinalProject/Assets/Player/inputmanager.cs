@@ -10,7 +10,7 @@ public class InputManager : MonoBehaviour
 
 
     PlayerControls controls;
-    PlayerControls.GroundMovementActions GroundMovement;
+    PlayerControls.GroundMovementActions groundMovement;
 
     Vector2 horizontalInput;
     Vector2 mouseInput;
@@ -19,16 +19,16 @@ public class InputManager : MonoBehaviour
 
     private void Awake()
     {
-        controls = new Playercontrols();
-        GroundMovement = controls.GroundMovement;
+        controls = new PlayerControls();
+        groundMovement = controls.GroundMovement;
 
         // groundMovement.[action].performed += context => do something
-        GroundMovement.HorizontalMovement.performed += ctx => horizontalInput = ctx.ReadValue<Vector2>();
+        groundMovement.HorizontalMovement.performed += ctx => horizontalInput = ctx.ReadValue<Vector2>();
 
-        GroundMovement.Jump.performed += _ => movement.OnJumpPressed();
+        groundMovement.Jump.performed += _ => movement.OnJumpPressed();
 
-        GroundMovement.MouseX.performed += ctx => mouseInput.x = ctx.ReadValue<float>();
-        GroundMovement.MouseY.performed += ctx => mouseInput.y = ctx.ReadValue<float>();
+        groundMovement.MouseX.performed += ctx => mouseInput.x = ctx.ReadValue<float>();
+        groundMovement.MouseY.performed += ctx => mouseInput.y = ctx.ReadValue<float>();
 
 
     }
@@ -49,4 +49,4 @@ public class InputManager : MonoBehaviour
     {
         controls.Disable();
     }
-}
+};
