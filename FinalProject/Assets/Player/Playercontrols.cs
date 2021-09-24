@@ -15,11 +15,11 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     ""name"": ""PlayerControls"",
     ""maps"": [
         {
-            ""name"": ""groundmovement"",
+            ""name"": ""GroundMovement"",
             ""id"": ""1b5f62af-5ad1-4fac-a61f-2c44a5a5b838"",
             ""actions"": [
                 {
-                    ""name"": ""horizontalmovement"",
+                    ""name"": ""HorizontalMovement"",
                     ""type"": ""PassThrough"",
                     ""id"": ""32172487-ec5b-4553-951b-659cb2535f16"",
                     ""expectedControlType"": ""Vector2"",
@@ -27,7 +27,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""jump"",
+                    ""name"": ""Jump"",
                     ""type"": ""Button"",
                     ""id"": ""6490b6ec-603a-4495-809e-d2ff2f39402d"",
                     ""expectedControlType"": ""Button"",
@@ -59,7 +59,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -70,7 +70,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -81,7 +81,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -92,7 +92,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -103,7 +103,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -114,7 +114,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -125,7 +125,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -136,7 +136,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -147,7 +147,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -158,7 +158,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""horizontalmovement"",
+                    ""action"": ""HorizontalMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -169,7 +169,7 @@ public class @PlayerControls : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""jump"",
+                    ""action"": ""Jump"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -200,12 +200,12 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     ],
     ""controlSchemes"": []
 }");
-        // groundmovement
-        m_groundmovement = asset.FindActionMap("groundmovement", throwIfNotFound: true);
-        m_groundmovement_horizontalmovement = m_groundmovement.FindAction("horizontalmovement", throwIfNotFound: true);
-        m_groundmovement_jump = m_groundmovement.FindAction("jump", throwIfNotFound: true);
-        m_groundmovement_MouseX = m_groundmovement.FindAction("MouseX", throwIfNotFound: true);
-        m_groundmovement_MouseY = m_groundmovement.FindAction("MouseY", throwIfNotFound: true);
+        // GroundMovement
+        m_GroundMovement = asset.FindActionMap("GroundMovement", throwIfNotFound: true);
+        m_GroundMovement_HorizontalMovement = m_GroundMovement.FindAction("HorizontalMovement", throwIfNotFound: true);
+        m_GroundMovement_Jump = m_GroundMovement.FindAction("Jump", throwIfNotFound: true);
+        m_GroundMovement_MouseX = m_GroundMovement.FindAction("MouseX", throwIfNotFound: true);
+        m_GroundMovement_MouseY = m_GroundMovement.FindAction("MouseY", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -252,52 +252,52 @@ public class @PlayerControls : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // groundmovement
-    private readonly InputActionMap m_groundmovement;
-    private IGroundmovementActions m_GroundmovementActionsCallbackInterface;
-    private readonly InputAction m_groundmovement_horizontalmovement;
-    private readonly InputAction m_groundmovement_jump;
-    private readonly InputAction m_groundmovement_MouseX;
-    private readonly InputAction m_groundmovement_MouseY;
-    public struct GroundmovementActions
+    // GroundMovement
+    private readonly InputActionMap m_GroundMovement;
+    private IGroundMovementActions m_GroundMovementActionsCallbackInterface;
+    private readonly InputAction m_GroundMovement_HorizontalMovement;
+    private readonly InputAction m_GroundMovement_Jump;
+    private readonly InputAction m_GroundMovement_MouseX;
+    private readonly InputAction m_GroundMovement_MouseY;
+    public struct GroundMovementActions
     {
         private @PlayerControls m_Wrapper;
-        public GroundmovementActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
-        public InputAction @horizontalmovement => m_Wrapper.m_groundmovement_horizontalmovement;
-        public InputAction @jump => m_Wrapper.m_groundmovement_jump;
-        public InputAction @MouseX => m_Wrapper.m_groundmovement_MouseX;
-        public InputAction @MouseY => m_Wrapper.m_groundmovement_MouseY;
-        public InputActionMap Get() { return m_Wrapper.m_groundmovement; }
+        public GroundMovementActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        public InputAction @HorizontalMovement => m_Wrapper.m_GroundMovement_HorizontalMovement;
+        public InputAction @Jump => m_Wrapper.m_GroundMovement_Jump;
+        public InputAction @MouseX => m_Wrapper.m_GroundMovement_MouseX;
+        public InputAction @MouseY => m_Wrapper.m_GroundMovement_MouseY;
+        public InputActionMap Get() { return m_Wrapper.m_GroundMovement; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(GroundmovementActions set) { return set.Get(); }
-        public void SetCallbacks(IGroundmovementActions instance)
+        public static implicit operator InputActionMap(GroundMovementActions set) { return set.Get(); }
+        public void SetCallbacks(IGroundMovementActions instance)
         {
-            if (m_Wrapper.m_GroundmovementActionsCallbackInterface != null)
+            if (m_Wrapper.m_GroundMovementActionsCallbackInterface != null)
             {
-                @horizontalmovement.started -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnHorizontalmovement;
-                @horizontalmovement.performed -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnHorizontalmovement;
-                @horizontalmovement.canceled -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnHorizontalmovement;
-                @jump.started -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnJump;
-                @jump.performed -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnJump;
-                @jump.canceled -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnJump;
-                @MouseX.started -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnMouseX;
-                @MouseX.performed -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnMouseX;
-                @MouseX.canceled -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnMouseX;
-                @MouseY.started -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnMouseY;
-                @MouseY.performed -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnMouseY;
-                @MouseY.canceled -= m_Wrapper.m_GroundmovementActionsCallbackInterface.OnMouseY;
+                @HorizontalMovement.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
+                @HorizontalMovement.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
+                @HorizontalMovement.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnHorizontalMovement;
+                @Jump.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
+                @Jump.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
+                @Jump.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnJump;
+                @MouseX.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
+                @MouseX.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
+                @MouseX.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseX;
+                @MouseY.started -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
+                @MouseY.performed -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
+                @MouseY.canceled -= m_Wrapper.m_GroundMovementActionsCallbackInterface.OnMouseY;
             }
-            m_Wrapper.m_GroundmovementActionsCallbackInterface = instance;
+            m_Wrapper.m_GroundMovementActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @horizontalmovement.started += instance.OnHorizontalmovement;
-                @horizontalmovement.performed += instance.OnHorizontalmovement;
-                @horizontalmovement.canceled += instance.OnHorizontalmovement;
-                @jump.started += instance.OnJump;
-                @jump.performed += instance.OnJump;
-                @jump.canceled += instance.OnJump;
+                @HorizontalMovement.started += instance.OnHorizontalMovement;
+                @HorizontalMovement.performed += instance.OnHorizontalMovement;
+                @HorizontalMovement.canceled += instance.OnHorizontalMovement;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
                 @MouseX.started += instance.OnMouseX;
                 @MouseX.performed += instance.OnMouseX;
                 @MouseX.canceled += instance.OnMouseX;
@@ -307,10 +307,10 @@ public class @PlayerControls : IInputActionCollection, IDisposable
             }
         }
     }
-    public GroundmovementActions @groundmovement => new GroundmovementActions(this);
-    public interface IGroundmovementActions
+    public GroundMovementActions @GroundMovement => new GroundMovementActions(this);
+    public interface IGroundMovementActions
     {
-        void OnHorizontalmovement(InputAction.CallbackContext context);
+        void OnHorizontalMovement(InputAction.CallbackContext context);
         void OnJump(InputAction.CallbackContext context);
         void OnMouseX(InputAction.CallbackContext context);
         void OnMouseY(InputAction.CallbackContext context);
