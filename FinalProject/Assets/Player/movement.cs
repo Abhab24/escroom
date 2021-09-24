@@ -16,10 +16,13 @@ public class Movement : MonoBehaviour
     [SerializeField] LayerMask groundMask;
     bool isGrounded;
 
+
+    public bool isGroundedWait { get => isGroundedWait; set => isGroundedWait = value; }
+
     private void Update()
     {
         isGrounded = Physics.CheckSphere(transform.position, 0.1f, groundMask);
-        if (isGrounded)
+        if (isGrounded == true && isGroundedWait == false)
         {
             verticalVelocity.y = 0;
         }
@@ -46,8 +49,14 @@ public class Movement : MonoBehaviour
         horizontalInput = _horizontalInput;
     }
 
+    private void onJumpWait()
+    {
+        isGroundedWait = true;
+    }
+
     public void OnJumpPressed()
     {
+        Invoke("onJumpWait", 0.1f);
         jump = true;
     }
 
