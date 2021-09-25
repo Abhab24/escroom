@@ -1,4 +1,4 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Player/PlayerControls.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Player/Playercontrols.inputactions'
 
 using System;
 using System.Collections;
@@ -6,13 +6,13 @@ using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
 
-public class @PlayerControls : IInputActionCollection, IDisposable
+public class @Playercontrols : IInputActionCollection, IDisposable
 {
     public InputActionAsset asset { get; }
-    public @PlayerControls()
+    public @Playercontrols()
     {
         asset = InputActionAsset.FromJson(@"{
-    ""name"": ""PlayerControls"",
+    ""name"": ""Playercontrols"",
     ""maps"": [
         {
             ""name"": ""GroundMovement"",
@@ -261,8 +261,8 @@ public class @PlayerControls : IInputActionCollection, IDisposable
     private readonly InputAction m_GroundMovement_MouseY;
     public struct GroundMovementActions
     {
-        private @PlayerControls m_Wrapper;
-        public GroundMovementActions(@PlayerControls wrapper) { m_Wrapper = wrapper; }
+        private @Playercontrols m_Wrapper;
+        public GroundMovementActions(@Playercontrols wrapper) { m_Wrapper = wrapper; }
         public InputAction @HorizontalMovement => m_Wrapper.m_GroundMovement_HorizontalMovement;
         public InputAction @Jump => m_Wrapper.m_GroundMovement_Jump;
         public InputAction @MouseX => m_Wrapper.m_GroundMovement_MouseX;
