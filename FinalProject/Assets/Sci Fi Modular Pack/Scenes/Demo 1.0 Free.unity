@@ -39,7 +39,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8159,7 +8159,6 @@ GameObject:
   - component: {fileID: 574961392}
   - component: {fileID: 574961391}
   - component: {fileID: 574961390}
-  - component: {fileID: 574961394}
   - component: {fileID: 574961397}
   - component: {fileID: 574961396}
   m_Layer: 0
@@ -8234,22 +8233,6 @@ Transform:
   m_Father: {fileID: 855144783}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 1.5220001, y: -115.880005, z: -0.15900001}
---- !u!114 &574961394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574961389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0eeffebf09e714fcd8d3c21c3395381c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Sensitivity: 0.9
-  Speed: 5
-  RotationSpeed: 7
-  LockMouse: 0
 --- !u!65 &574961396
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11159,7 +11142,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 855144778}
   m_LocalRotation: {x: -0, y: 0.22567597, z: -0, w: 0.9742024}
-  m_LocalPosition: {x: 9.784104, y: 0.162, z: 6.481}
+  m_LocalPosition: {x: 9.101, y: 0.162, z: 6.481}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 1417989324}
