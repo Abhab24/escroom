@@ -42,12 +42,7 @@ public class ButtonTrigger : MonoBehaviour
         }
     }
 
-    IEnumerator ExecuteAfterTime()
-    {
-        yield return new WaitForSeconds(3);
-        key.SetActive(false);
-
-    }
+    
 
 
 
