@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Gate2 : MonoBehaviour
+public class NoteAppear : MonoBehaviour
 {
 
     public MouseLook mouseLook;

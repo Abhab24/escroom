@@ -349,7 +349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3994b536e75a5a847b19e257e86f5779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _noteImage: {fileID: 184097108}
+  mouseLook: {fileID: 855144780}
+  Door1Img: {fileID: 184097106}
 --- !u!1001 &21432077
 PrefabInstance:
   m_ObjectHideFlags: 0
