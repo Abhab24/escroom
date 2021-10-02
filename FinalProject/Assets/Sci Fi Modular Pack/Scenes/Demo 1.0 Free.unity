@@ -330,11 +330,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19610972}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 0.5}
-  m_Center: {x: 0.55395013, y: 0.7146596, z: 0.0000000027939677}
+  m_Size: {x: 1.4033895, y: 2.6599867, z: 1.7971922}
+  m_Center: {x: 0.5506568, y: 0.7049264, z: 0.06607419}
 --- !u!64 &19610983
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2008,6 +2008,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee88617da51e3e8479a812f9d58a94be, type: 3}
+--- !u!1 &109185231 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1747119322251336, guid: ee88617da51e3e8479a812f9d58a94be,
+    type: 3}
+  m_PrefabInstance: {fileID: 109185230}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &109185232
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109185231}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.599216, z: 5.2418156}
+  m_Center: {x: 0, y: 1.8471649, z: 0.5626898}
 --- !u!1 &111425687
 GameObject:
   m_ObjectHideFlags: 0
